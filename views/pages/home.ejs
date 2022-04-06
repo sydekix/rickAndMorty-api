@@ -1,0 +1,11 @@
+<%- include('../partials/header'); %>
+    <main class="main container-fluid text-center">
+        <div class="character-spacing">
+            <h1 class="character-text"><%= data[0].name %> and <%= data[1].name %></h1>
+            <div class="hero-characters">
+                <img src="<%= data[0].image %>" alt="<%= data[0].title %>">
+                <img src="<%= data[1].image %>" alt="<%= data[1].title %>">
+            </div>
+        </div>
+    </main>
+<%- include('../partials/footer') %>

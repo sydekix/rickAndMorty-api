@@ -1,0 +1,41 @@
+* {box-sizing: border-box;}
+
+.header {
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(186, 161, 127);
+    margin-bottom: 50px;
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+container-fluid {
+    padding: 0;
+}
+
+character-spacing {
+    margin-top: 100px;
+}
+
+.hero-characters {
+    margin: 25px 0;
+}
+
+.character-text {
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}

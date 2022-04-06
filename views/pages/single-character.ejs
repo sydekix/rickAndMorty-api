@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+
+    <main class="main container">
+        <div class="row">
+            <h2 class="col-12"><%= name %></h2>
+            <section class="figure col-10">
+                <figure class="figure col-10">
+                    <img src="<%= data.image %>" alt="<%= data.name %>" class="img-fluid">
+                    <figcaption><%= data.name %></figcaption>
+                    <figcaption>Status: <%= data.status %></figcaption>
+                    <figcaption>Species: <%= data.species %></figcaption>
+                    <figcaption>Gender: <%= data.gender %></figcaption>
+                    <figcaption>Origin: <%= data.origin %></figcaption>
+                </figure>
+            </section>
+        
+        </div>
+    </main>
+<%- include('../partials/footer') %>

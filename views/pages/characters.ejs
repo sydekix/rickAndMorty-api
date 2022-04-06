@@ -1,0 +1,21 @@
+<%- include('../partials/header') %>
+
+    <main class="main container">
+        <div class="row">
+            <% data.forEach(item => { %>
+                <div class="col-md-4">
+                    <a href="/characters/<%= item.id %>">
+                        <h2><%= item.name %></h2>
+                        <img class="img-fluid" src="<%= item.image %>" alt="<%= item.name %>">
+                        <p>Status: <%= item.status %></p>
+                        <p>Species: <%= item.species %></p>
+                        <p>type: <%= item.type %></p>
+                        <p>gender: <%= item.gender %></p>
+                        <p>origin: <%= item.origin %></p>
+                    </a>
+                </div>
+            <% }) %>
+        </div>
+    </main>
+
+<%- include('../partials/footer'); %>
